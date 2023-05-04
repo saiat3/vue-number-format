@@ -26,7 +26,7 @@ export default Vue.extend({
   name: 'VueNumber',
   props: {
     value: {
-      required: true,
+      required: false,
       type: [Number, String]
     },
     nullValue: {
